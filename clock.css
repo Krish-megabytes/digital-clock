@@ -2,7 +2,7 @@ body{
   background-color: #222;
 }
 
-.clockbox {
+#clockbox {
   background-color: rgb(94, 73, 73);
   position: absolute;
   text-align: center;
