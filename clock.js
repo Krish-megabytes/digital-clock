@@ -5,7 +5,7 @@ function updateclock() {
   let seconds = now.getseconds().toString().padStart(2, "0");
   let updatestring = hours + ":" + minutes + ":" + seconds;
 
-  document.getElementsByid('clockbox').innertext = updatestring;
+  document.getElementsByid('clock').innertext = updatestring;
 }
 
 updateclock();
