@@ -1,4 +1,5 @@
- function updateclock() {
+window.onload = function(){
+function updateclock() {
         let now = new Date();
         let hours = now.getHours().toString().padStart(2, "0");
         let minutes = now.getMinutes().toString().padStart(2, "0");
@@ -10,3 +11,4 @@
 
       updateclock();
       setInterval(updateclock, 1000);
+};
